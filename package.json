@@ -18,5 +18,7 @@
   "bugs": {
     "url": "https://github.com/Feda2020/CodeRepo-HW11-Note-Taker/issues"
   },
-  "homepage": "https://github.com/Feda2020/CodeRepo-HW11-Note-Taker#readme"
+  "homepage": "https://github.com/Feda2020/CodeRepo-HW11-Note-Taker#readme",
+  
+  "start": "node server.js"
 }
