@@ -29,7 +29,7 @@
  ## Picture
 
  ![Website](./public/assets/HerokuPage.PNG)
- ![Website](./public/assets/NoteHTML.PNG)
+ ![Website](./public/assets/noteHTML.PNG)
 
 ## Test
 
