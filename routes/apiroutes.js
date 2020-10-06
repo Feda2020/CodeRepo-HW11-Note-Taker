@@ -51,7 +51,7 @@ module.exports = function(app) {
 
       // This is to compare each note's id to delete note
       dbData = JSON.parse(data);
-      // for function, looping through note's id to delete the one the user wants to delete
+      
       for (let i = 0; i < dbData.length; i++) {
         if (dbData[i].id === Number(deleteNote)) {
           dbData.splice([i], 1);
@@ -64,7 +64,7 @@ module.exports = function(app) {
         if (err) throw err;
       });
     });
-    // Express response.status(204) everything is running
+    // Express response.status everything is running
     res.status(204).send();
   });
 };
